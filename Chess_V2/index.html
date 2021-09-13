@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="gameBoard.js"></script>
+    <script type="module" src="gamePieces.js"></script>
+    <script type="module" src="movePieces.js"></script>
+    <script type="module" src="position.js"></script>
+  </head>
+  <body>
+    <div id="container" style="float: left"></div>
+  </body>
+  <body>
+    <div class="teams active" id="team1" style="float: left">Team 1</div>
+    <!-- <button class="nextBtn" type="button" style="position: static">
+      Click Me!
+    </button> -->
+    <div
+      class="teams"
+      id="team2"
+      style="float: right; margin-left: 80%; position: fixed"
+    >
+      Team 2
+    </div>
+    <div class="teamScore" id="team1Score">00</div>
+    <div class="teamScore" id="team2Score">00</div>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+img {
+  /* padding: inherit; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  z-index: -1;
+  pointer-events: none;
+}
+
+
+.imgCont {
+  z-index: 10;
+  cursor:pointer;
+  display:block;
+  text-align:center;
+  width:100px;
+  height:100px;
+}
+
+.imgContHover {
+  background-color:#830274;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  cursor:pointer;
+  display:block;
+  z-index: 10;
+}
+
+.cellHover:hover {
+  background-color:orange;
+  z-index: 999;
+  
+}
+
+/* div:not(.empty) .filled {
+  cursor: not-allowed;
+} */
+
+/* div:not(.empty) .pieces {
+  cursor: not-allowed;
+} */
+
+.row {
+  display: flex;
+}
+
+
+
+#container {
+  border: 1px solid black;
+}
+
+
+
+.draggable {
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid black;
+  cursor: move;
+  -moz-user-select: element;
+  -khtml-user-select: element;
+  -webkit-user-select: element;
+  -ms-user-select: element;
+  user-select: element;
+}
+
+.filled {
+  cursor: not-allowed;
+}
+
+.teams {
+  font-size: 250%;
+  font-family: "Orbitron", sans-serif;
+  position: relative;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  margin-left: 1rem;
+}
+
+.teamScore {
+  background-color: black;
+  color: white;
+}
+
+#team1Score {
+  font-size: 300%;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 5rem;
+  float: right;
+  margin-left: 56.5rem;
+  position: fixed;
+  padding: 5px;
+}
+
+#team2Score {
+  font-size: 300%;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 5rem;
+  padding: 5px;
+  position: absolute;
+  float: right;
+  margin-left: 80%;
+  position: fixed;
+}
+
+#my_timer {
+  font-size: 200%;
+  font-weight: bold;
+  font-family: "Orbitron", sans-serif;
+  float: right;
+  margin-top: 10rem;
+  margin-left: 15%;
+}
+
+.stopHover {
+  pointer-events: none;
+} 
